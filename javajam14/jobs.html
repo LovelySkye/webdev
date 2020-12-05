@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JavaJam Coffee House Jobs
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The JavaJam website allows you to browse the shop's menu, read about its musical performers, apply for a job, buy merchandise, and provides you with the shop's address so you can experience the taste of JavaJam yourself.">
+    <link href="javajam.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrapper">
+    <header>
+        <h1>JavaJam Coffee House</h1>
+    </header>
+    <nav>
+        <b><ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="jobs.html">Jobs</a></li>
+            <li><a href="gear.html">Gear</a></li>
+            </ul>
+        </b></nav>
+    <main>
+        <div id="herojobs"></div>
+        <h2>Jobs at JavaJam</h2>
+        <p>Want to work at JavaJam? Fill out the form below to start your application.
+        <br>Required fields are marked with an asterisk *.
+        </p>
+        
+        <form method="post" action="https://webdevbasics.net/scripts/javajam8.php">
+            <label for="myName">*Name</label>
+            <input type="text" name="myName" required="required">
+            <label for="myEmail">*E-mail</label>
+            <input type="email" name="myEmail" required="required">
+            <label for="myExperience">*Experience</label>
+            <textarea name="myExperience" rows="2" cols="20" required="required"></textarea>
+            <input type="submit" value="Apply Now" id="mySubmit">
+        </form>
+    </main>
+    <footer>
+        <small><i>Copyright &copy; 2020 JavaJam Coffee House</i></small>
+    </footer>
+    <div id="wrapper">
+</body>
+
+</html>
